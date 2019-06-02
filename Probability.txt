@@ -1,0 +1,57 @@
+----->>>>>probability
+
+Probability is the 
+chance that something will happen?—?how likely it is that some event will happen.
+
+Probability of an event happening P(E) = Number of ways it can happen n(E)/ Total number of outcomes n(T)
+
+Probability is the measure of the likelihood that an event will occur. Probability is quantified as a 
+number between 0 and 1, where 0 indicates impossibility and 1 indicates certainty.
+
+----->>>>>Conditional Probability
+
+Conditional probability is a measure of the probability of an event (some particular situation occurring) given that 
+(by assumption, presumption, assertion or evidence) another event has occurred.
+
+The probability of event B given event A equals the probability of event A and event B divided by the probability of event A.
+P(B|A) = P(B and A)/P(A)
+
+----->>>>>How conditional probability is used in data science?
+
+Many data science techniques (i.e. Naive Bayes) rely on Bayes’ theorem. 
+Bayes’ theorem is a formula that describes how to update the probabilities of hypotheses when given evidence.
+P(A|B) = P(B|A)P(A)/P(B)
+Using the Bayes’ theorem, its possible to build a learner that predicts
+the probability of the response variable belonging to some class, given a new set of attributes.
+
+
+----->>>>>Random variables
+A random variable is a set of possible values from a random experiment.
+A random variable (random quantity, aleatory variable, or stochastic variable) 
+is a variable whose possible values are outcomes of a random phenomenon.
+Random variables can be discrete or continuous. 
+Discrete random variables can only take certain values while continuous random variables can take any value (within a range)
+
+
+---->>>>Probability Distribution
+The probability distribution for a random variable describes how the probabilities are distributed over the values of the random variable.
+
+For a discrete random variable, x, the probability distribution is defined by a probability mass function, denoted by f(x). This function 
+provides the probability for each value of the random variable.
+
+For a continuous random variable, since there is an infinite number of values in any interval, 
+the probability that a continuous random variable will lie within a given interval is considered. 
+So here, the probability distribution is defined by probability density function, also denoted by f(x).
+
+Both probability functions must satisfy two requirements:: (1) f(x) must be non-negative for each value of the random variable, and 
+(2) the sum of the probabilities for each value (or integral over all values) of the random variable must equal one.
+
+
+---->>>>The normal distribution, also known as the Gaussian distribution
+, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence
+than data far from the mean. It has following properties:
+
+The normal curve is symmetrical about the mean µ;
+The mean is at the middle and divides the area into halves;
+The total area under the curve is equal to 1;
+It is completely determined by its mean and standard deviation s (or variance s2)

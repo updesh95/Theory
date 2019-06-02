@@ -1,0 +1,62 @@
+     Emsemble learning 
+
+Using multiple learning algorithms together for the same task.
+It gives better predictions than individual algo.
+
+
+We take the votes from the different algos and find the with most probability.
+Why ensemble?
+1. better accuracy
+2. high consistensy(avoids overfitting)
+3. Reduces bias and variance.
+
+When and where?
+1. Single model overfits.
+2. Result worth extra trainings.
+3. Can be used for classification as well as regresson
+
+Methods
+
+1. Bootstrap Aggregating or bagging
+    We select the subsets of data and train it with different algos and at last take the vote.
+
+2. Boosting
+    We give more emphasis on selecting  datasets which give wrong outputs inorder to increase accuracy.
+	we select the first dataset(bag) and then train model and then we test that model.
+	For each wrong predictions dataset we put that datapoint into again the model with some more datasets
+	and then we ensemble it with the earlier model and test the model.
+	We keep this doing till we get satifactory results.
+	cons(overfitting)
+	
+	
+	
+	
+KNN vs K mean clustering
+
+
+K-nearest neighbors is a classification algorithm, which is a subset of supervised learning.
+K-means is a clustering algorithm, which is a subset of unsupervised learning.
+
+If I have a dataset of basketball players, their positions, and their measurements,
+and I want to assign positions to basketball players in a new dataset where I have 
+measurements but no positions, I might use k-nearest neighbors.
+
+On the other hand, if I have a dataset of basketball players who need to be grouped
+into k distinct groups based off of similarity, I might use k-means.
+
+Correspondingly, the K in each case also mean different things! 
+In k-nearest neighbors, the k represents the number of neighbors who have a vote
+in determining a new player's position. Take the example where k =3. If I have a new basketball player who needs a position, 
+I take the 3 basketball players in my dataset with measurements closest to my new basketball player, and I have 
+them vote on the position that I should assign the new player.
+
+The k in k-means means the number of clusters I want to have in the end. If k = 5, I will have 5 clusters, or 
+distinct groups, of basketball players after I run the algorithm on my dataset.
+
+
+features can be used for accuracy improvement of a classification model:::--->>
+
+ A) Frequency count of terms
+ B) Vector Notation of sentence
+ C) Part of Speech Tag
+ D) Dependency Grammar	
